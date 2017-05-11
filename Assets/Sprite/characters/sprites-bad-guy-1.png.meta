@@ -1,0 +1,175 @@
+fileFormatVersion: 2
+guid: 7594044659133cc41b71437c93b9b492
+timeCreated: 1480419138
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: sprites-bad-guy-1_0
+    21300002: sprites-bad-guy-1_1
+    21300004: sprites-bad-guy-1_2
+    21300006: sprites-bad-guy-1_3
+    21300008: sprites-bad-guy-1_5
+    21300010: sprites-bad-guy-1_6
+    21300012: sprites-bad-guy-1_7
+    21300014: sprites-bad-guy-1_16
+    21300016: sprites-bad-guy-1_17
+    21300018: sprites-bad-guy-1_18
+    21300020: sprites-bad-guy-1_19
+    21300022: sprites-bad-guy-1_20
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sprites-bad-guy-1_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1104
+        width: 851
+        height: 936
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprites-bad-guy-1_2
+      rect:
+        serializedVersion: 2
+        x: 2359
+        y: 1095
+        width: 426
+        height: 938
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprites-bad-guy-1_3
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 1123
+        width: 775
+        height: 887
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprites-bad-guy-1_6
+      rect:
+        serializedVersion: 2
+        x: 3272
+        y: 1110
+        width: 776
+        height: 888
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprites-bad-guy-1_16
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 51
+        width: 848
+        height: 933
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprites-bad-guy-1_17
+      rect:
+        serializedVersion: 2
+        x: 1286
+        y: 56
+        width: 797
+        height: 964
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprites-bad-guy-1_19
+      rect:
+        serializedVersion: 2
+        x: 2253
+        y: 29
+        width: 734
+        height: 974
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprites-bad-guy-1_20
+      rect:
+        serializedVersion: 2
+        x: 3184
+        y: 32
+        width: 774
+        height: 966
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

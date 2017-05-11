@@ -1,0 +1,99 @@
+using UnityEngine;
+using System.Collections;
+using UnityEngine.Networking;
+
+public class CarPush : NetworkBehaviour
+{
+
+	public Transform[] path =new Transform[2];
+	public float speed = 1.0F;
+    public float MaxSpeed = 5.0f;
+    public float Acceleration = 1.0F;
+    public float TimeBeforeAcceleration = 10.0F;
+    
+    float LastPush;
+    
+    public float TravelTime;
+	public int currentPoint = 0;
+    [SyncVar]
+	public  bool isPushed = false;
+    private int PlayersPushing;
+    Animator anim;
+
+	// Use this for initialization
+	void Start () {
+        if (isServer)
+        {
+            NetworkServer.Spawn(this.gameObject);
+
+        }
+ 
+
+        //anim = GameObject.FindGameObjectWithTag ("Canvas").GetComponent<Animator> ();
+    }
+	
+	// Update is called once per frame
+	void Update () {
+		float dist = Vector3.Distance (path [currentPoint].position, transform.position );
+
+        if (isPushed == true)
+        {
+
+            if ((LastPush + Time.time > TimeBeforeAcceleration) && (speed < MaxSpeed))
+            {
+                print("OEH");
+                speed = speed + (Acceleration * PlayersPushing);
+                LastPush = Time.time;
+
+            }
+ 
+
+            transform.position = Vector3.MoveTowards(transform.position, path[currentPoint].position, Time.deltaTime * speed);
+
+
+
+
+        }
+
+
+
+        else
+        {
+
+            if ((LastPush + Time.time > TimeBeforeAcceleration) && (speed != 0))
+            {
+                speed = speed + Acceleration;
+                LastPush = Time.time;
+
+            }
+
+        }
+
+        
+
+        if (dist < 1) {
+			currentPoint += 1;
+		}
+		if (currentPoint >= path.Length) {
+			currentPoint = 0;
+
+		}
+	}
+
+	void OnDrawGizmos()
+	{
+		for (int i = 0; i < path.Length; ++i) {
+			if (path [i] != null) {
+				Gizmos.DrawSphere (path [i].position, 1.0f);
+			}
+		}
+	}
+
+    public void TriggerPush(bool trigger)
+    {
+        LastPush = Time.time;
+        isPushed = trigger;
+      
+
+    }
+}

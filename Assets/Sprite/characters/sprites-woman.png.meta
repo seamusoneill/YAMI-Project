@@ -1,0 +1,190 @@
+fileFormatVersion: 2
+guid: cbab7a0e97d86674e85d0a5e639f044d
+timeCreated: 1480418196
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: sprites-woman_0
+    21300002: sprites-woman_1
+    21300004: sprites-woman_2
+    21300006: sprites-woman_3
+    21300008: sprites-woman_4
+    21300010: sprites-woman_5
+    21300012: sprites-woman_6
+    21300014: sprites-woman_7
+    21300016: sprites-woman_8
+    21300018: sprites-woman_9
+    21300020: sprites-woman_10
+    21300022: sprites-woman_11
+    21300024: sprites-woman_12
+    21300026: sprites-woman_13
+    21300028: sprites-woman_14
+    21300030: sprites-woman_15
+    21300032: sprites-woman_16
+    21300034: sprites-woman_17
+    21300036: sprites-woman_18
+    21300038: sprites-woman_19
+    21300040: sprites-woman_20
+    21300042: sprites-woman_21
+    21300044: sprites-woman_22
+    21300046: sprites-woman_23
+    21300048: sprites-woman_24
+    21300050: sprites-woman_25
+    21300052: sprites-woman_26
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sprites-woman_1
+      rect:
+        serializedVersion: 2
+        x: 2341
+        y: 1111
+        width: 387
+        height: 937
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprites-woman_2
+      rect:
+        serializedVersion: 2
+        x: 1259
+        y: 1091
+        width: 533
+        height: 909
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprites-woman_4
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1135
+        width: 880
+        height: 820
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprites-woman_6
+      rect:
+        serializedVersion: 2
+        x: 3255
+        y: 1104
+        width: 714
+        height: 856
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprites-woman_10
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 127
+        width: 888
+        height: 820
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprites-woman_12
+      rect:
+        serializedVersion: 2
+        x: 1343
+        y: 150
+        width: 430
+        height: 795
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprites-woman_13
+      rect:
+        serializedVersion: 2
+        x: 2349
+        y: 64
+        width: 589
+        height: 883
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprites-woman_14
+      rect:
+        serializedVersion: 2
+        x: 3093
+        y: 145
+        width: 880
+        height: 788
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
